@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box{
+      width: 200px;
+      height: 200px;
+      border: 3px solid red;
+      background-color: greenyellow;
+      /* transition: width 3s linear 2s; */
+      transition: width 3s linear, height 4s ease-out, transform 2s; /*aro onk item ei ase khali try kore dekhte hoibo,,,ekhane [hover er tranfrom] k bole dea hoise tai kaj kortase na bole sob somoy kaj kore nah */
+    
+    }
+    .box:hover{
+      width: 400px;
+      height: 400px;
+      background-color: green;
+      transform: rotate(360deg);
+      
+    }
+  </style>
+</head>
+<body>
+    <div class="box">
+          <h1>tranziton</h1>
+    </div>
+    <div class="box">
+          <h1>tranziton</h1>
+    </div>
+    <div class="box">
+          <h1>tranziton</h1>
+    </div>
+    <div class="box">
+          <h1>tranziton</h1>
+    </div>
+    <div class="box">
+          <h1>tranziton</h1>
+    </div>
+    <div class="box">
+          <h1>tranziton</h1>
+    </div>
+</body>
+</html>
